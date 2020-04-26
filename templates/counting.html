@@ -1,0 +1,10 @@
+<a href="{% url 'home' %}">start again</a>
+<h1>hey sexy there are  {{count}} words in your ass</h1>
+<br />
+{{textbox}}
+<br />
+<br />
+{% for word, counttotal in sortedwords %}
+{{ word }} - {{ counttotal }}
+
+{% endfor %}
